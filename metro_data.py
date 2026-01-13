@@ -1,0 +1,35 @@
+metro_graph = {
+    # Purple Line
+    "PCMC Bhavan": ["Sant Tukaram Nagar"],
+    "Sant Tukaram Nagar": ["PCMC Bhavan", "Nashik Phata (Bhosari)"],
+    "Nashik Phata (Bhosari)": ["Sant Tukaram Nagar", "Kasarwadi"],
+    "Kasarwadi": ["Nashik Phata (Bhosari)", "Phugewadi"],
+    "Phugewadi": ["Kasarwadi", "Dapodi"],
+    "Dapodi": ["Phugewadi", "Bopodi"],
+    "Bopodi": ["Dapodi", "Khadki"],
+    "Khadki": ["Bopodi", "Range Hill Depot"],
+    "Range Hill Depot": ["Khadki", "Range Hill"],
+    "Range Hill": ["Range Hill Depot", "Shivaji Nagar"],
+    "Shivaji Nagar": ["Range Hill", "Civil Court"],
+    "Civil Court": ["Shivaji Nagar", "Kasba Peth", "PMC Bhavan", "Mangalwar Peth"],
+    "Kasba Peth": ["Civil Court", "Mandai"],
+    "Mandai": ["Kasba Peth", "Swargate"],
+    "Swargate": ["Mandai"],
+
+    # Aqua Line
+    "Vanaz": ["Anand Nagar"],
+    "Anand Nagar": ["Vanaz", "Ideal Colony"],
+    "Ideal Colony": ["Anand Nagar", "Nal Stop"],
+    "Nal Stop": ["Ideal Colony", "Garware College"],
+    "Garware College": ["Nal Stop", "Deccan Gymkhana"],
+    "Deccan Gymkhana": ["Garware College", "Chhatrapati Sambhaji Udyan"],
+    "Chhatrapati Sambhaji Udyan": ["Deccan Gymkhana", "PMC Bhavan"],
+    "PMC Bhavan": ["Chhatrapati Sambhaji Udyan", "Civil Court"],
+    "Mangalwar Peth": ["Civil Court", "Pune Railway Station"],
+    "Pune Railway Station": ["Mangalwar Peth", "Ruby Hall Clinic"],
+    "Ruby Hall Clinic": ["Pune Railway Station", "Bund Garden"],
+    "Bund Garden": ["Ruby Hall Clinic", "Yerawada"],
+    "Yerawada": ["Bund Garden", "Kalyani Nagar"],
+    "Kalyani Nagar": ["Yerawada", "Ramwadi"],
+    "Ramwadi": ["Kalyani Nagar"]
+}
